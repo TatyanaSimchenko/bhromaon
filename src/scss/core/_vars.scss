@@ -1,0 +1,25 @@
+//colors
+$WHITE: #fff;
+$BLUE: #5474fd;
+$DARK: #232323;
+
+
+//fonts
+$base-font:'Josefin Sans', sans-serif;
+// $logo-font:'Pacifico', cursive;
+
+
+//font-sizes
+$base-font-size: 16px;
+
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+$H48: calcRem(48px);
+$H36: calcRem(36px);
+$H24: calcRem(24px);
+$H22: calcRem(22px);
+$H20: calcRem(20px);
+$H16: calcRem(16px);
+$H14: calcRem(14px);
