@@ -1,0 +1,46 @@
+.form {
+flex-wrap: nowrap;
+    display: flex;
+    margin-bottom: 118px;
+    padding: 0.15px;
+    @media screen and (max-width: 680px) {
+    flex-wrap: wrap;
+    }
+  &__input {
+    width: 500px;
+    outline: none;
+    border: none;
+    border: 1px solid $WHITE;
+    padding: 24px 15px 24px 125px;
+    @include text($H14, 400, $GREY);
+    @media screen and (max-width: 680px) {
+            width: 480px;
+            padding: 24px 15px 24px 15px;
+            margin-bottom: 20px;
+    }
+    @media screen and (max-width: 679px) {
+      width: 100%
+    }
+  }
+  &__btn {
+    background-color: $BLUE;
+    border: 1px solid $WHITE;
+    @include text($H14, 400, $WHITE);
+    text-transform: uppercase;
+    width: 150px;
+    height: 64px;
+    text-align: center;
+    padding: 22px 0 0 30px;
+    letter-spacing: 1px;
+    position: relative;
+    &::before {
+      content: url(../assets/svg/search.svg);
+      position: absolute;
+      top: 13px;
+    right: 0px;
+    left: 88px;
+    }
+  }
+  
+  
+}

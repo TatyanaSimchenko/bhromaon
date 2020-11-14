@@ -1,0 +1,19 @@
+.gallery__card {
+  max-width: 550px;
+  min-height: 370px;
+  background-color:$BLUR;
+  padding: 10px 10px 10px 10px ; 
+  &-subtitle {
+@include text($H20, 400, $WHITE);
+opacity: 0.5;
+  }
+  &-title {
+    @include text($H20, 400, $WHITE);
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  &-text {
+    @include text($H16, 400, $WHITE);
+    opacity: 0.5;
+  }
+}

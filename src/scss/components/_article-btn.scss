@@ -1,0 +1,56 @@
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  min-width: 230px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  white-space: nowrap;
+  @include text($H20, 400, $WHITE);
+  font-family: $second-font;
+   text-transform: uppercase;
+  text-align: center;
+  background-color: $BLUE;
+  &:hover {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    background-color: lighten($BLUE, 5%);
+  }
+  &:active {
+    box-shadow: none;
+    background-color: darken($BLUE, 5%);
+  }
+}
+// .article__btn {
+ 
+  // $btn-color: random-color($BLUE);
+  // $btn-color-dark: shade($btn-color, 40%);
+  // color: tint($btn-color);
+  // &:before {
+  //   content: '';
+  //   top: 0;
+  //   right: -50;
+  //   bottom: 0;
+  //   left: 0;
+  //   // @include absolute(0,-50px,0,0);
+  //   border-right: 50px solid transparent;
+  //   border-bottom: $btn-height solid $btn-color-dark;
+  //   transform: translateX(-100%);
+  // }
+  // &:hover {
+  //   color: tint($BLUE, 75%);
+  //   &:before {
+  //     transform: translateX(0);
+  //   }
+  // }
+  // margin-bottom: 30px;
+  // &:hover {
+  //   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  //   background-color: lighten($BLUE, 5%);
+  // }
+  // &:active {
+  //   box-shadow: none;
+  //   background-color: darken($BLUE, 5%);
+  // }
+// }

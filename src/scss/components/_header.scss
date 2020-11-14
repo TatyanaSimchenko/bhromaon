@@ -1,0 +1,31 @@
+.header {
+  background-image: url(../assets/images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 740px;
+display: flex;
+// justify-content: center;
+align-items: center;
+flex-direction: column;
+  &__title {
+@include text($H48, 700, $WHITE);
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 3px;
+margin-bottom: 10px;
+padding-top: 268px;
+@media screen and (max-width: 400px) {
+  font-size: $H36;
+  }
+  }
+  &__subtitle {
+    @include text($H22, 400, $WHITE);
+    letter-spacing: 7px;
+    text-align: center;
+    margin-bottom: 45px;
+    @media screen and (max-width: 400px) {
+      font-size: $H18;
+      }
+  }
+}

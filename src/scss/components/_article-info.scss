@@ -1,0 +1,19 @@
+.article__info {
+  &-title {
+    @include text($H36, 400, $WHITE);
+    font-family: $second-font;
+    padding-top: 178px;
+    margin-bottom: 61px;
+  }
+  &-description {
+    @include text($H16, 400, $WHITE);
+    max-width: 540px;
+    opacity: 0.5;
+    letter-spacing: 1.7px;
+   margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  &-description:not(:nth-last-of-type()){
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,21 @@
+
+.header__scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // position: relative;
+  &::before {
+    position: relative;
+    content: url(../assets/svg/scroll.svg);
+    top: 23px;
+    right: 25px;
+    left: 50px;
+  }
+  &-link {
+    text-align: center;
+    @include text($H14, 400, $WHITE);
+    letter-spacing: 2px;
+   
+
+  }
+}

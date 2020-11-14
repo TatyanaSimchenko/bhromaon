@@ -1,0 +1,19 @@
+.nav {
+  background-color: $BLUE;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px 30px 13px;
+  }
+  &__logo {
+    @include text($H24, 400, $WHITE);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.5s ease;
+    &:hover {
+      text-shadow: 0 1px 2px $DARK;
+    }
+  }
+  
+  
+}

@@ -1,0 +1,14 @@
+.article {
+  background-image: url(../assets/images/article-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 680px;
+  &__container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+}
