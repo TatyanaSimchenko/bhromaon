@@ -1,0 +1,20 @@
+.blog {
+  background-image: url(../assets/images/blog-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 730px;
+   
+    &__container {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    &__title {
+      @include text($H36, 400, $WHITE);
+      font-family: $second-font;
+      margin-top: 113px;
+    margin-bottom: 92px;
+    }
+}

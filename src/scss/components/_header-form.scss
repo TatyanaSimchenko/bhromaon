@@ -30,16 +30,17 @@ flex-wrap: nowrap;
     width: 150px;
     height: 64px;
     text-align: center;
-    padding: 22px 0 0 30px;
+    padding: 25px 0 0 30px;
     letter-spacing: 1px;
     position: relative;
-    &::before {
-      content: url(../assets/svg/search.svg);
-      position: absolute;
-      top: 13px;
-    right: 0px;
-    left: 88px;
-    }
+    // &::before {
+    //   content: url(../assets/svg/search.svg);
+    //   position: absolute;
+    //   top: 13px;
+    // right: 0px;
+    // left: 88px;
+    // }
+    
   }
   
   

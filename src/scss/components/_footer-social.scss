@@ -1,0 +1,27 @@
+.footer__social {
+  display: flex;
+    align-items: center;
+  flex-direction: row;
+  .footer__ link {
+    color: #fff;
+  }
+}
+.icon {
+  color: #fff;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}

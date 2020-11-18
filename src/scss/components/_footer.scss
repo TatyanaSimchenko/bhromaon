@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $DARK;
+  min-height: 270px;
+  &__logo {
+    @include text($H24, 400, $WHITE);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 24px 0 13px;
+  }
+  &__subtitle {
+    @include text($H16, 300, $WHITE);
+    text-align: center;
+  }
+}

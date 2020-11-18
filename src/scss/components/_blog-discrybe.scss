@@ -1,0 +1,13 @@
+.blog__discribe {
+  padding: 52px 15px 10px 60px;
+  &-subtitle {
+    @include text($H20, 300, $WHITE);
+    text-transform: uppercase;
+    margin-bottom: 45px;
+  }
+  &-text {
+   @include text($H16, 300, $WHITE);
+   line-height: 1.6;
+  }
+
+}
